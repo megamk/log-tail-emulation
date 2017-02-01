@@ -1,0 +1,26 @@
+{
+  "name": "log-tail-emulation",
+  "version": "1.0.0",
+  "description": "Emulate intensive log write to catch node-tail bug",
+  "main": "fill.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megamk/log-tail-emulation.git"
+  },
+  "author": "Mikhail Kiurshin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/megamk/log-tail-emulation/issues"
+  },
+  "homepage": "https://github.com/megamk/log-tail-emulation#readme",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "node-uuid": "^1.4.7",
+    "randomstring": "^1.1.5",
+    "sprintf": "^0.1.5",
+    "tail": "^1.2.1"
+  }
+}
