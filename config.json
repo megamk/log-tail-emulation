@@ -1,8 +1,8 @@
 {
   "inputLogFile": "./input.log",
   "outputLogFile": "./output.log",
-  "stringMin": 256,
-  "stringMax": 1024,
-  "intervalMin": 50,
-  "intervalMax": 200
+  "stringMin": 2048,
+  "stringMax": 4096,
+  "intervalMin": 10,
+  "intervalMax": 100
 }
